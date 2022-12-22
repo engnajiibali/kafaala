@@ -1,0 +1,351 @@
+﻿/*
+    ============ Prepared by: Dalmar Yusuf
+    ============ Date: Aug 26, 2019
+    ============ Description: This file customizes basic professional report style based on the needs of every report.
+    ============ Note: Please load this file after you load these files: 1) css/dgrid.css   2) css/professionalreports.css    
+*/
+
+.page-content {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+.professionalreports .page-content .reportGridContainer {
+    width: 854px;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 40px;
+    min-width: 50%;
+    border: 1px solid #e3eaf3;
+}
+
+    .professionalreports .page-content .reportGridContainer .reportToolBar {
+        width: 854px;
+        height: 38px;
+        position: absolute;
+        background-color: #fff;
+        border-bottom: 1px solid #e3eaf3;
+        border-left: 1px solid #e3eaf3;
+        border-right: 1px solid #e3eaf3;
+        margin-left: -1px;
+    }
+
+.page-content .reportGridContainer .reportToolBar .leftDiv {
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.page-content .reportGridContainer .reportToolBar .rightDiv {
+    float: right;
+    padding: 10px;
+}
+
+.page-content .pencilIcon {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.hi {
+    font-family: harmonyicons;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.page-content .reportGridContainer .reportArea {
+    background-color: #fff;
+    border: 1px solid #e3eaf3;
+    padding: 0 15px 25px;
+    display: inline-block;
+    margin-top: 38px;
+    text-align: left;
+    width: 100%;
+}
+
+.page-content .reportGridContainer .center {
+    text-align: center;
+}
+
+.page-content .reportGridContainer .reportArea .reportHeader .companyNameRow {
+    margin-bottom: 1px;
+    margin-top: 15px;
+}
+
+    .page-content .reportGridContainer .reportArea .reportHeader .companyNameRow .companyName {
+        display: inline;
+        font-size: 22px;
+    }
+
+.professionalreports .page-content .reportGridContainer .reportArea .reportHeader .titleRow {
+    margin: 8px 0 10px;
+}
+
+.page-content .reportGridContainer .reportArea .reportHeader .titleRow .reportName {
+    display: inline-block;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.professionalreports .page-content .reportGridContainer .reportArea .reportHeader .dateRangeRow {
+    font-size: 14px;
+}
+
+.dgrid.dgrid-03 {
+    height: auto;
+    background: transparent;
+    color: #6B6C72;
+    border: 0 none;
+    overflow: visible;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header {
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid #6e6b6b;
+    border-top: 1px solid #6e6b6b;
+    border-radius: 0;
+    margin-top: 5px;
+    box-shadow: 0 0 0 5px #fff;
+}
+
+.dgrid.dgrid-03 .dgrid-header {
+    outline: none !important;
+    position: static;
+    border: 0 none;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    font-size: 1.2rem;
+    color: #6e8ba8;
+    background-color: inherit;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-row-table {
+    height: 30px;
+    border: none;
+    transform: translateZ(0);
+}
+
+    .page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-row-table .dgrid-spacer-row .dgrid-cell {
+        border: none !important;
+    }
+
+    .page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-row-table .cell, .professionalreports .page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-row-table .dgrid-cell {
+        color: #000;
+        border-left: 1px dotted #c7c7c7;
+        font-weight: 700;
+        font-size: 11px;
+        transition: none !important;
+    }
+
+.page-content .reportGridContainer .reportArea .reportsGridCompact .dgrid-cell {
+    min-height: 27px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-row-table .dgrid-spacer-row .dgrid-resize-header-container {
+    height: 0 !important;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-resize-handle {
+    position: relative;
+    float: right;
+    height: 50px;
+    margin-bottom: -80px;
+    margin-top: -20px;
+}
+
+.dgrid.dgrid-03 .dgrid-header .dgrid-resize-handle {
+    right: -12px;
+}
+
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-row-table .dgrid-spacer-row .dgrid-cell {
+    border: none !important;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-row-table .cell, .professionalreports .page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-row-table .dgrid-cell {
+    color: #000;
+    border-left: 1px dotted #c7c7c7;
+    font-weight: 700;
+    font-size: 11px;
+    transition: none !important;
+}
+
+.dgrid-column-0-1 {
+    width: 150px;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-header .dgrid-resize-header-container {
+    position: static;
+}
+
+.dgrid.dgrid-03 .dgrid-header .dgrid-resize-header-container {
+    height: 20px;
+}
+
+/* =================== Report Content ================= */
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-scroller {
+    overflow-x: hidden;
+}
+
+.dgrid.dgrid-03 .dgrid-scroller {
+    position: static;
+    overflow-y: visible;
+    margin: 0 !important;
+}
+
+.dgrid.dgrid-03 .dgrid-scroller, .dgrid.dgrid-03 .dgrid-row, .dgrid.dgrid-03 .dgrid-cell {
+    outline: 0 none;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-content {
+    display: inline-block;
+}
+
+.dgrid.dgrid-03 .dgrid-content {
+    font-size: 1.3rem;
+    color: #404040;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.dgrid.dgrid-03 .dgrid-row {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.page-content .reportGridContainer .reportArea .reportsGridCompact .dgrid-row .dgrid-row-table {
+    height: 20px !important;
+    min-height: 20px !important;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGridCompact .cell, .professionalreports .page-content .reportGridContainer .reportArea .reportsGridCompact .dgrid-cell {
+    min-height: 27px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-column-0-0 {
+    height: 100% !important;
+    background: #fff;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .left {
+    text-align: left;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .black {
+    color: #404040;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .ui-icon {
+    width: 0 !important;
+    height: 0 !important;
+    vertical-align: middle;
+    content: "";
+    background-color: transparent;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .ui-icon-triangle-1-se {
+    border-top: 4px solid gray;
+    border-right: 4px solid transparent;
+    border-bottom: none;
+    border-left: 4px solid transparent;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .dgrid-expando-icon {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    float: none !important;
+    margin-right: 5px;
+}
+
+.page-content .reportGridContainer .reportArea .reportFooter {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+    .page-content .reportGridContainer .reportArea .reportFooter .footerOption {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+.ui-widget {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ui-widget-content {
+    border: none;
+}
+
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+        background: none;
+        border: none;
+        line-height: none;
+        font-weight: normal;
+        color: none;
+        text-shadow: none;
+    }
+
+.page-content .reportGridContainer .reportArea .reportsGrid .totalRow {
+    border-top: 1px solid #ccc !important;
+    font-weight: bold;
+}
+
+.page-content .reportGridContainer .reportArea .reportsGrid .grandTotalRow {
+    border-top: 1px solid #ccc !important;
+    border-bottom-style: double !important;
+    border-bottom-color: #000 !important;
+    font-weight: bold;
+}
+
+.dgrid-row .dgrid-row-table:hover {
+    background-color: #eae8e8;
+}
+
+.rootHeader:hover {
+    background-color: #eae8e8;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.professionalreports .page-content .reportGridContainer .reportArea .reportsGrid .collapsedHeader {
+    border-bottom: 1px solid #ccc !important;
+}
+
+.professionalreports .page-content .reportGridContainer .reportArea .reportsGrid .grandTotalRow {
+    border-top: 1px solid #ccc !important;
+    border-bottom-style: double !important;
+    border-bottom-color: #000 !important;
+}
+
+.page-content {
+    overflow: auto;
+    overflow-y: hidden;
+    -ms-overflow-y: hidden;
+}
+
+.dgrid-content.ui-widget-content {
+    width: 100%;
+}
+
+.dgrid-no-data {
+    text-align: center;
+    margin: 40px 0;
+}

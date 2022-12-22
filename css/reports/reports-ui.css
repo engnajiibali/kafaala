@@ -1,0 +1,708 @@
+﻿
+.idsStatusBadgeIcon {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle
+}
+
+.idsStatusBadgeIcon--confirm {
+    fill: #2ca01c
+}
+
+.idsStatusBadgeIcon--error {
+    fill: #d52b1e
+}
+
+.idsStatusBadgeIcon--info {
+    fill: #0097e6
+}
+
+.idsStatusBadgeIcon--pending {
+    fill: #d4d7dc
+}
+
+.idsStatusBadgeIcon--round.idsStatusBadgeIcon--warning {
+    fill: #ff6a00
+}
+
+.idsStatusBadgeIcon__text {
+    margin-left: 4px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Avenir Next forINTUIT
+}
+
+.idsStatusBadgeIcon__text--confirm {
+    color: #2ca01c
+}
+
+.idsStatusBadgeIcon__text--error {
+    color: #d52b1e
+}
+
+.idsStatusBadgeText {
+    text-align: center;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    font-family: Avenir Next forINTUIT;
+    font-style: normal;
+    line-height: 1.6rem;
+    padding-left: 4px;
+    padding-right: 4px;
+    display: inline-block
+}
+
+.idsStatusBadgeText--error {
+    background-color: #d52b1e
+}
+
+.idsStatusBadgeText--warning {
+    background-color: #ff6a00
+}
+
+.idsStatusBadgeText--info {
+    background-color: #0097e6
+}
+
+.idsStatusBadgeText--pending {
+    background-color: #404040
+}
+
+.idsStatusBadgeText--confirm {
+    background-color: #2ca01c
+}
+
+.idsNumericBadge {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: Avenir Next forINTUIT;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: normal;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #8d9096;
+    line-height: 1.6rem
+}
+
+.idsNumericBadge--inverse {
+    background-color: #393a3d
+}
+
+.idsStatusBadgeText--new {
+    background-color: #e31c9e
+}
+
+.idsNewFeatureIndicator {
+    width: 8px;
+    height: 8px;
+    color: #e31c9e
+}
+
+.reportDialogModalError h2,
+.reportDialogModalOption h2 {
+    font-size: 20px
+}
+
+.reportDialogModalError h2 {
+    margin-left: 0!important;
+    text-align: center
+}
+
+.reportDialogFooter {
+    text-align: center!important
+}
+
+.reportDialogFooter .errorBtn {
+    float: none!important
+}
+
+.reports-ui {
+    padding: 0 25px
+}
+
+.reports-ui .title {
+    padding: 20px 0 10px
+}
+
+.reports-ui .reports-ui-error {
+    padding: 25px
+}
+
+.reports-ui .reports-ui-spinner .spinner-view {
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: hsla(0, 0%, 100%, .7);
+    z-index: 50000;
+    position: absolute
+}
+
+.reports-ui .reportErrorClass {
+    margin: auto;
+    width: 80%;
+    text-align: center
+}
+
+.reports-ui .reportsTabsOptions ha-tab {
+    background-color: transparent
+}
+
+.reports-ui .reportsTabsOptions ha-tab:focus {
+    background-color: #eceef1;
+    outline: 1px solid #055393;
+    outline: 5px auto -webkit-focus-ring-color
+}
+
+.reports-ui .reportsTabsOptions .ha-tabs-content {
+    display: none
+}
+
+.reports-ui .universalSearch {
+    float: right;
+    width: 50%!important
+}
+
+.reports-ui .universalSearch .search-container {
+    width: 100%!important
+}
+
+.reports-ui .report-content .reportsTabsOptions span .content {
+    display: none
+}
+
+.reports-ui .report-tab-content {
+    margin-top: 5px;
+    padding-top: 25px;
+    position: relative
+}
+
+.reports-ui .allReportContent .reportCategory {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 1px;
+    border: 1px solid #d4d7dc;
+    box-shadow: 2px 2px 2px #d4d7dc;
+    overflow: hidden
+}
+
+.reports-ui .allReportContent .reportCategory .reportCategoryTitle {
+    cursor: pointer;
+    display: inline-block
+}
+
+.reports-ui .allReportContent .reportCategory .reportCategoryTitle:focus {
+    outline: 1px solid #055393;
+    outline: 5px auto -webkit-focus-ring-color
+}
+
+.reports-ui .allReportContent .reportCategory .reportCategoryTitle:after,
+.reports-ui .allReportContent .reportCategory .reportCategoryTitle:hover {
+    outline: none
+}
+
+.reports-ui .allReportContent .reportCategory .chevron {
+    font-size: 35px;
+    padding: 0 8px 5px 0;
+    width: 18px
+}
+
+.reports-ui .allReportContent .reportCategory .reportCategoryList {
+    position: relative;
+    min-height: 120px;
+    min-width: 700px;
+    padding-right: 200px;
+    padding-bottom: 20px
+}
+
+.reports-ui .allReportContent .reportCategory .reportEmptyCategory {
+    padding: 20px 0 20px 20px
+}
+
+.reports-ui .allReportContent .reportCategory .reportRowWrapper {
+    padding: 0 10px;
+    width: 50%;
+    min-width: 450px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.reports-ui .allReportContent .reportCategory .small .reportRowWrapper {
+    display: block
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage {
+    width: 178px;
+    height: 148px;
+    background-image: url(../images/53cd3187ed8e89da0695aa3fe1e50817.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: -36px;
+    background-position: -179px 0
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.favReport {
+    background-position: 0 0
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.BUSINESS_OVERVIEW {
+    background-position: -179px 0
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.GST_RETURNS {
+    background-position: 0 -300px
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.MANAGE_ACCOUNTS_RECEIVABLE {
+    background-position: -357px 0
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.REVIEW_SALES {
+    background-position: -179px 0
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.MANAGE_ACCOUNTS_PAYABLE {
+    background-position: -179px -150px
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.REVIEW_EXPENSES_PURCHASES {
+    background-position: -359px -150px
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.MANAGE_SALES_TAX {
+    background-position: 0 -300px
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.ACCOUNTANT_REPORTS {
+    background-position: -357px -300px
+}
+
+.reports-ui .allReportContent .reportCategory .categoryImage.PROJECTS {
+    background-position: 0 -300px
+}
+
+.reports-ui .allReportContent .reportRow {
+    border-bottom: 2px solid #e3e5e8;
+    padding: 10px 15px;
+    line-height: 20px
+}
+
+.reports-ui .allReportContent .reportRow button {
+    border: none;
+    background-color: inherit
+}
+
+.reports-ui .allReportContent .reportRow:hover {
+    background-color: #f4f5f8
+}
+
+.reports-ui .allReportContent .reportRow .reportTitle {
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 75%
+}
+
+.reports-ui .allReportContent .reportRow .reportTitle a,
+.reports-ui .allReportContent .reportRow .reportTitle span {
+    color: #393a3d;
+    font-weight: 400;
+    text-decoration: none
+}
+
+.reports-ui .allReportContent .reportRow .reportTitle a:focus,
+.reports-ui .allReportContent .reportRow .reportTitle a:hover,
+.reports-ui .allReportContent .reportRow .reportTitle span:focus,
+.reports-ui .allReportContent .reportRow .reportTitle span:hover {
+    color: #0077c5;
+    cursor: pointer
+}
+
+.reports-ui .allReportContent .reportRow .reportDescription {
+    padding: 15px 0
+}
+
+.reports-ui .allReportContent .reportRow .hi-help-o {
+    font-size: 17px;
+    padding-left: 5px;
+    color: #babec5;
+    cursor: pointer;
+    vertical-align: top;
+    padding-top: 2px;
+    display: none
+}
+
+.reports-ui .allReportContent .reportRow .hi-help-o:focus,
+.reports-ui .allReportContent .reportRow .hi-help-o:hover {
+    color: #0077c5
+}
+
+.reports-ui .allReportContent .reportRow .hi-help-o.displayDescIcon {
+    display: inline-block
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions {
+    float: right;
+    cursor: pointer;
+    margin-top: -4px
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions .hi-star-o {
+    color: #babec5
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions .hi-star-o:focus {
+    outline: 1px solid #055393;
+    outline: 5px auto -webkit-focus-ring-color
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions .hi-star-o:hover {
+    color: #2ca01c
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions .hi-star-o:hover:before {
+    content: "\F010"
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions .hi-star {
+    color: #2ca01c
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions .hi-star:focus {
+    outline: 1px solid #055393;
+    outline: 5px auto -webkit-focus-ring-color
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions .hi-star:hover {
+    color: #babec5
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions .hi-star:hover:before {
+    content: "\F04F"
+}
+
+.reports-ui .allReportContent .reportRow .reportOptions .nonCustomize {
+    margin: 4px 31px 0 0
+}
+
+.reports-ui .allReportContent .noDisplay {
+    display: none
+}
+
+.reports-ui .allReportContent .reportComboOptions .btn-group .hi-icon-button.btn-link {
+    margin: 0 0 0 5px;
+    width: 24px;
+    height: 28px
+}
+
+.reports-ui .allReportContent .reportComboOptions .btn-group .hi-icon-button.btn-link:after {
+    border: 0
+}
+
+.reports-ui .allReportContent .reportComboOptions .btn-group .hi-icon-button.btn-link:hover {
+    border: 1px solid #6b6c72;
+    border-radius: 2px
+}
+
+.reports-ui .allReportContent .reportComboOptions .hi-overflow {
+    color: #babec5;
+    font-size: 24px;
+    margin-top: -5px
+}
+
+.reports-ui .report-tab-management-report {
+    background-color: #fff
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent {
+    overflow: scroll;
+    padding: 10px 0 40px;
+    display: block
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .dgrid-scrollbar-width {
+    display: none
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .ha-table-row:hover {
+    background-color: #f4f5f8;
+    cursor: pointer
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .ha-table-row {
+    background-color: #fff;
+    border-bottom: 1px solid #e3e5e8
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .ha-table-row .field-name {
+    width: 35%;
+    border-right: 1px dotted #e3e5e8
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .ha-table-row .field-name:hover {
+    color: #0077c5;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .field-lastModifiedDate {
+    width: 20%;
+    border-left: 1px dotted #e3e5e8
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .field-name {
+    width: 35%;
+    border-right: 1px solid #e3e5e8
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .field-period {
+    border-left: 1px dotted #e3e5e8;
+    align-items: center;
+    width: 25%
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .field-period ha-select {
+    width: 180px;
+    margin-top: 4px;
+    margin-bottom: 5px
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .field-period ha-date-picker {
+    width: 120px;
+    margin-right: 10px
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .field-period ha-date-picker .ha-input {
+    width: 120px
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .field-action {
+    width: 10%;
+    justify-content: flex-end;
+    border-left: 1px dotted #e3e5e8
+}
+
+.reports-ui .report-tab-management-report .mgmtReportContent .field-createdBy {
+    width: 20%;
+    border-left: 1px dotted #e3e5e8
+}
+
+.reports-ui .report-tab-custom-report {
+    background-color: #fff;
+    padding: 10px 15px 40px
+}
+
+.reports-ui .report-tab-custom-report .noCustomReport {
+    padding-top: 30px;
+    text-align: center
+}
+
+.reports-ui .report-tab-custom-report .row {
+    background-color: #fff;
+    border-bottom: 1px solid #e3e5e8;
+    height: 50px
+}
+
+.reports-ui .report-tab-custom-report .row:hover {
+    background-color: #f4f5f8;
+    cursor: pointer
+}
+
+.reports-ui .report-tab-custom-report .cell {
+    padding: 15px 0 10px;
+    display: inline-block;
+    word-wrap: break-word
+}
+
+.reports-ui .report-tab-custom-report .row .expando {
+    display: inline-block;
+    margin-right: 5px
+}
+
+.reports-ui .report-tab-custom-report .row.header {
+    height: 40px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-bottom: 2px solid #e3e5e8
+}
+
+.reports-ui .report-tab-custom-report .row.childRow .name {
+    padding-left: 30px
+}
+
+.reports-ui .report-tab-custom-report .row .name {
+    width: 30%;
+    padding-left: 10px;
+    border-right: 1px dotted #e3e5e8
+}
+
+.reports-ui .report-tab-custom-report .row .name .reportName {
+    cursor: pointer
+}
+
+.reports-ui .report-tab-custom-report .row .name .reportName:hover {
+    color: #0077c5;
+    text-decoration: underline
+}
+
+.reports-ui .report-tab-custom-report .row .name .sharedTag {
+    background-color: #7090ab;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 2px;
+    font-size: 9px;
+    line-height: 16px;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-left: 10px
+}
+
+.reports-ui .report-tab-custom-report .row.header .name:hover {
+    padding-left: 10px;
+    text-decoration: none;
+    cursor: text
+}
+
+.reports-ui .report-tab-custom-report .row .createdBy {
+    padding-left: 10px;
+    border-right: 1px dotted #e3e5e8;
+    width: 25%
+}
+
+.reports-ui .report-tab-custom-report .row .reportPeriod {
+    padding-left: 10px;
+    border-right: 1px dotted #e3e5e8;
+    width: 20%
+}
+
+.reports-ui .report-tab-custom-report .row .schedule {
+    padding-left: 10px;
+    border-right: 1px dotted #e3e5e8;
+    width: 13%
+}
+
+.reports-ui .report-tab-custom-report .row .actionLink {
+    padding-left: 10px;
+    width: 10%
+}
+
+.reports-ui .report-tab-custom-report .report-pagination {
+    text-align: right;
+    margin-top: 30px
+}
+
+.reports-ui .report-tab-custom-report .report-pagination .text,
+.reports-ui .report-tab-custom-report .report-pagination .textLink {
+    display: inline-block
+}
+
+.reports-ui .report-tab-custom-report .report-pagination .text {
+    padding-right: 20px
+}
+
+.reports-ui .report-tab-custom-report .report-pagination .textLink {
+    margin-right: 20px;
+    color: #055393;
+    cursor: pointer
+}
+
+.reportCurrencyExchangeModal .modal-title h2 {
+    margin-left: 0!important;
+    text-align: center
+}
+
+.reportCurrencyExchangeModal .reportCurrencyDatePicker {
+    vertical-align: inherit;
+    width: 120px
+}
+
+.reportCurrencyExchangeModal .reportCurrencyContent {
+    padding-left: 0!important;
+    text-align: center
+}
+
+.reportCurrencyExchangeModal .reportCurrencyContent .reportCurrencyList {
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    overflow: scroll;
+    padding-top: 30px
+}
+
+.reportCurrencyExchangeModal .reportCurrencyContent .reportCurrencyList .row.header {
+    font-weight: 700
+}
+
+.reportCurrencyExchangeModal .reportCurrencyContent .reportCurrencyList .row.header,
+.reportCurrencyExchangeModal .reportCurrencyContent .reportCurrencyList .row.section {
+    width: 100%;
+    display: inline-block;
+    line-height: 40px
+}
+
+.reportCurrencyExchangeModal .reportCurrencyContent .reportCurrencyList .cell.name {
+    float: left
+}
+
+.reportCurrencyExchangeModal .reportCurrencyContent .reportCurrencyList .cell.rate {
+    float: right
+}
+
+.reportCurrencyExchangeModal .reportCurrencyContent .reportCurrencyList .cell.rate .reportCurrencyRateValue {
+    width: 100px;
+    vertical-align: inherit
+}
+
+.reportTaxAuditFileModal .reportTaxAuditFileContent {
+    margin-top: 20px!important
+}
+
+.reportTaxAuditFileModal .reportTaxAuditFileContent .reportDescription {
+    padding-bottom: 30px
+}
+
+.reportTaxAuditFileModal .reportTaxAuditFileContent .reportDate {
+    margin-right: 20px
+}
+
+.reportTaxAuditFileModal .reportTaxAuditFileContent .reportTaxAuditFileDatePicker {
+    vertical-align: inherit;
+    width: 120px;
+    padding-bottom: 20px
+}
+
+.reportNewBanner {
+    padding: 20px 0;
+    border-bottom: 2px solid #babec5;
+    display: inline-block;
+    width: 100%
+}
+
+.reportNewBanner .reportContent {
+    width: 30%;
+    min-width: 250px;
+    display: inline-block
+}
+
+.reportNewBanner .reportContent .textDetail {
+    padding: 20px 0
+}
+
+.reportNewBanner .reportImage {
+    height: 150px;
+    width: 60%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    background: url(../images/ada74aba7a7fd6ee4414543a023dc329.png) no-repeat 50%
+}
+
+
